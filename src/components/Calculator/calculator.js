@@ -5,7 +5,7 @@ import Header from './header';
 import Inputbar from './inputBar.js/inputBar';
 import TierSelect from './tierSelect';
 import ToggleAcceleratedApy from './toggleAcceleratedApy';
-import Roi_Inputbar from './roi_inputbar/roi_inputBar';
+import RoiInputbar from './roi_inputbar/roi_inputBar';
 import Buttons from './buttons';
 import Details from './details';
 
@@ -19,7 +19,7 @@ export default function Calculator() {
             <Timeframe />
             <ToggleAcceleratedApy />
             <TierSelect />
-            <Roi_Inputbar />
+            <RoiInputbar />
             <Buttons />
             <Details />
         </Box>
